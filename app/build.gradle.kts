@@ -4,6 +4,7 @@ version = "0.0.1"
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
     id("org.jetbrains.kotlin.plugin.serialization") version "1.7.10"
+    id("com.github.johnrengelman.shadow") version "7.1.2"
     application
 }
 
